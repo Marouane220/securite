@@ -105,7 +105,7 @@ router.get('/logout', ensureAuthenticated, (req, res) => {
 
 //Start page
 router.get('/', (req, res)=>{
-  res.send('Welcome to our application');
+  res.render('start');
 });
 
 
